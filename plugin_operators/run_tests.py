@@ -314,7 +314,7 @@ def main():
         msg = f"🎉  ALL {all_tests} GOVERNANCE & INTEGRITY TESTS PASSED (100% Success in {total_time:.4f}s)"
         print(colorize(msg, GREEN + BOLD, use_color))
     else:
-        msg = f"⚠️  {all_fails + all_errors} OUT OF {all_tests} TESTS FAILED (Elapsed: {total_time:.4f}s)"
+        msg = f"⚠️🤢  {all_fails + all_errors} OUT OF {all_tests} TESTS FAILED (Elapsed: {total_time:.4f}s)"
         print(colorize(msg, RED + BOLD, use_color))
 
         # Print failures in detail
